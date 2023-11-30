@@ -1,0 +1,380 @@
+/* � 2013-2014 Fiserv, Inc. or its affiliates. All rights reserved. This work, including its contents and programming, 
+   is confidential and its use is strictly limited. This work is furnished only for use by duly authorized licensees 
+   of Fiserv, Inc. or its affiliates, and their designated agents or employees responsible for installation or 
+   operation of the products. Any other use, duplication, or dissemination without the prior written consent of Fiserv, 
+   Inc. or its affiliates is strictly prohibited. Except as specified by the agreement under which the materials are 
+   furnished, Fiserv, Inc. and its affiliates do not accept any liabilities with respect to the information contained 
+   herein and are not responsible for any direct, indirect, special, consequential or exemplary damages resulting from 
+   the use of this information. No warranties, either express or implied, are granted or extended by this work or the 
+   delivery of this work. */
+
+/*=================================================================================================*\
+	Media Inclusions
+\*=================================================================================================*/
+
+body, .ux-page, .ui-page.ui-dialog{background:url(background.png)!important;} /* !important used to override jQuerymobile's important decleration in Themeroller.css for the .ui-dialog class */
+
+.ux-loading{background:transparent url(ajax-loader.gif) no-repeat center center;}
+
+.ux-icon{background-image:url(icons-18-white.png);}
+.ux-icon-alt, .ux-black-icons .ui-icon{background-image:url(icons-18-black.png);}
+
+.ux-loader{background:transparent url(ajax-loader.gif) no-repeat center center;}
+
+.ux-map{background: transparent url(ajax-loader.gif) no-repeat center center;}
+
+.ui-loader-default .ui-icon-loading{background-image:url(ajax-loader-white.gif);}
+
+#navigation li a.ux-nav-item span.ux-nav-font { background-image:url(Media/Icons/menu.min.png);}
+
+.ux-account-header{background-image:url(account-header.png)}
+
+.validation-summary-errors ul:before,
+.ux-icon-alert,
+.ui-datebox-container .ui-btn .ui-btn-inner .ui-icon:before,
+.ux-status-onhold span.list-item-cell-last:after,
+.ux-status-canceled span.list-item-cell-last:after,
+.ux-status-pending span.list-item-cell-last:after,
+.ux-status-inprogress span.list-item-cell-last:after,
+.ux-status-failed span.list-item-cell-last:after,
+.ux-status-stopped span.list-item-cell-last:after,
+.ux-status-expired span.list-item-cell-last:after,
+.ux-status-completed span.list-item-cell-last:after,
+.ux-onhold:before,
+.ux-canceled:before,
+.ux-pending:before,
+.ux-inprogress:before,
+.ux-failed:before,
+.ux-stopped:before,
+.ux-expired:before,
+.ux-completed:before,
+.ux-icon.ux-icon-arrow-r:before,
+.ui-datebox-gridheader .ui-icon.ui-icon-arrow-l,
+.ui-datebox-gridheader .ui-icon.ui-icon-arrow-r,
+.ux-grid-menu-container .ux-nav-font,
+#menuitem-change-password .ux-nav-font,
+#menuitem-terms .ux-nav-font,
+#menuitem-courtesy .ux-nav-font,
+#menuitem-TruCar .ux-nav-font,
+#menuitem-OAO .ux-nav-font,
+#menuitem-locations .ux-nav-font,
+#menuitem-call-center .ux-nav-font,
+#menuitem-bills .ux-nav-font,
+#menuitem-pending .ux-nav-font,
+#PersonalPayments .ux-nav-font,
+#ZellePayments .ux-nav-font,
+#menuitem-payee .ux-nav-font,
+#menuitem-todo .ux-nav-font,
+#menuitem-sendmoney .ux-nav-font,
+#menuitem-activity .ux-nav-font,
+.ux-security-questions .ux-icon-check.ui-icon, .ux-mfa-question .ux-icon-check.ui-icon,
+.ux-split-fields-container .ui-select .ui-btn-icon-right .ui-icon {
+    background-image: url(Media/Icons/misc.min.png);
+}
+#menuitem-bill-matrix .ux-nav-font{background-image:url(menu-tile-billmatrix_82.png);}
+.ui-icon, .ui-icon-searchfield::after,.field-validation-error:before {background-image: url(icons-18-white.png);}
+
+/*=================================================================================================*\
+	Overrides
+\*=================================================================================================*/
+
+.ux-footer{ background: transparent none;border: 0;}
+.ux-select{ border-left-width:0;border-right-width: 0;}
+.ui-btn-text{ white-space: normal;text-overflow: clip;}
+
+/*=================================================================================================*\
+	Windows 8 Workaround - This needs to mirror the high DPI media queries
+\*=================================================================================================*/
+
+.ux-retina .validation-summary-errors ul:before,
+.ux-retina .ux-icon-alert-success,
+.ux-retina .ux-icon-alert-information,
+.ux-retina .ux-icon-alert-warning,
+.ux-retina .ux-icon-alert-error,
+.ux-retina .ui-datebox-container .ui-btn .ui-btn-inner .ui-icon:before,
+.ux-retina .ui-datebox-container .ui-btn.ui-datebox-gridminus .ui-btn-inner .ui-icon.ui-icon-arrow-l,
+.ux-retina .ui-datebox-container .ui-btn.ui-datebox-gridplus .ui-btn-inner .ui-icon.ui-icon-arrow-r,
+.ux-retina .ux-status-onhold span.list-item-cell-last:after,
+.ux-retina .ux-status-canceled span.list-item-cell-last:after,
+.ux-retina .ux-status-pending span.list-item-cell-last:after,
+.ux-retina .ux-status-inprogress span.list-item-cell-last:after,
+.ux-retina .ux-status-failed span.list-item-cell-last:after,
+.ux-retina .ux-status-stopped span.list-item-cell-last:after,
+.ux-retina .ux-status-expired span.list-item-cell-last:after,
+.ux-retina .ux-status-completed span.list-item-cell-last:after,
+.ux-retina .ux-onhold:before,
+.ux-retina .ux-canceled:before,
+.ux-retina .ux-pending:before,
+.ux-retina .ux-inprogress:before,
+.ux-retina .ux-failed:before,
+.ux-retina .ux-stopped:before,
+.ux-retina .ux-expired:before,
+.ux-retina .ux-completed:before,
+.ux-retina .ux-icon.ux-icon-arrow-r:before,
+.ux-retina .ui-datebox-gridheader .ui-icon.ui-icon-arrow-l,
+.ux-retina .ui-datebox-gridheader .ui-icon.ui-icon-arrow-r,
+.ux-retina .ux-grid-menu-container .ux-nav-font,
+.ux-retina #menuitem-bills .ux-nav-font,
+.ux-retina #menuitem-pending .ux-nav-font,
+.ux-retina #PersonalPayments .ux-nav-font,
+.ux-retina #ZellePayments .ux-nav-font,
+.ux-retina #menuitem-payee .ux-nav-font,
+.ux-retina #menuitem-todo .ux-nav-font,
+.ux-retina #menuitem-sendmoney .ux-nav-font,
+.ux-retina #menuitem-activity .ux-nav-font,
+.ux-retina #menuitem-change-password .ux-nav-font,
+.ux-retina #menuitem-terms .ux-nav-font,
+.ux-retina #menuitem-courtesy .ux-nav-font,
+.ux-retina #menuitem-TruCar .ux-nav-font,
+.ux-retina #menuitem-OAO .ux-nav-font,
+.ux-retina #menuitem-locations .ux-nav-font,
+.ux-retina #menuitem-call-center .ux-nav-font,
+.ux-retina .ux-security-questions .ux-icon-check.ui-icon,  .ux-mfa-question .ux-icon-check.ui-icon,
+.ux-retina .ux-split-fields-container .ui-select .ui-btn-icon-right .ui-icon{background-image:url(Media/Icons/misc_retina.min.png);background-size:200px 1500px;}
+.ux-retina #navigation li a.ux-nav-item span.ux-nav-font { background-image:url(Media/Icons/menu_retina.min.png);background-size:180px 480px;}
+.ux-retina #menuitem-bill-matrix .ux-nav-font{background-image:url(menu-tile-billmatrix_82.png);background-size:199px 82px;}
+.ux-retina .ui-icon-plus, 
+.ux-retina .ui-icon-minus, 
+.ux-retina .ui-icon-delete, 
+.ux-retina .ui-icon-arrow-r, 
+.ux-retina .ui-icon-arrow-l, 
+.ux-retina .ui-icon-arrow-u, 
+.ux-retina .ui-icon-arrow-d, .ui-icon-check, 
+.ux-retina .ui-icon-gear, .ui-icon-refresh, 
+.ux-retina .ui-icon-forward, .ui-icon-back, 
+.ux-retina .ui-icon-grid, .ui-icon-star, 
+.ux-retina .ui-icon-alert,
+.ux-retina .ui-icon-info, 
+.ux-retina .ui-icon-home, 
+.ux-retina .ui-icon-bars, 
+.ux-retina .ui-icon-edit, 
+.ux-retina .ui-icon-search, 
+.ux-retina .ui-icon-searchfield::after, 
+.ux-retina .ui-icon-checkbox-off, 
+.ux-retina .ui-icon-checkbox-on, 
+.ux-retina .ui-icon-radio-off, 
+.ux-retina .ui-icon-radio-on,
+.ux-retina .field-validation-error:before, 
+.ux-retina .ux-security-questions .ui-icon{background-image:url(icons-36-white.png);-moz-background-size: 864px 18px;-o-background-size: 864px 18px;-webkit-background-size: 864px 18px;background-size:864px 18px;}
+
+.ux-retina .ux-black-icons .ui-icon{background-image:url(icons-36-black.png);}
+.ux-retina .field-validation-error:before{ background-position: -72px 50%;}
+
+/* jQuery mobile sets these in their media query located in themeroller.css, but as IE doesn't register DPI the default icons from jquery mobile need to have their positions set here */
+.ux-retina .ui-icon-plus { background-position: 0px 50% }
+.ux-retina .ui-icon-minus { background-position: -36px 50% }
+.ux-retina .ui-icon-delete { background-position: -72px 50% }
+.ux-retina .ui-icon-arrow-r { background-position: -107px 50% }
+.ux-retina .ui-icon-arrow-l { background-position: -143px 50% }
+.ux-retina .ui-icon-arrow-u { background-position: -179px 50% }
+.ux-retina .ui-icon-arrow-d { background-position: -215px 50% }
+.ux-retina .ui-icon-check { background-position: -251px 50% }
+.ux-retina .ui-icon-gear { background-position: -287px 50% }
+.ux-retina .ui-icon-refresh { background-position: -322px 50% }
+.ux-retina .ui-icon-forward { background-position: -359px 50% }
+.ux-retina .ui-icon-back { background-position: -395px 50% }
+.ux-retina .ui-icon-grid { background-position: -431px 50% }
+.ux-retina .ui-icon-star { background-position: -466px 50% }
+.ux-retina .ui-icon-alert { background-position: -502px 50% }
+.ux-retina .ui-icon-info { background-position: -538px 50% }
+.ux-retina .ui-icon-home { background-position: -574px 50% }
+.ux-retina .ui-icon-search,
+.ux-retina .ui-icon-searchfield:after { background-position: -610px 50% }
+.ux-retina .ui-icon-checkbox-on { background-position: -646px 50% }
+.ux-retina .ui-icon-checkbox-off { background-position: -682px 50% }
+.ux-retina .ui-icon-radio-on { background-position: -717px 50% }
+.ux-retina .ui-icon-radio-off { background-position: -753px 50% }
+.ux-retina .ui-icon-bars { background-position: -787px 50% }
+.ux-retina .ui-icon-edit { background-position: -823px 50% }
+
+/*Courtesy Pay menu*/
+#menuitem-courtesy:hover a { background-color: #199cb2;}
+#menuitem-courtesy .ux-nav-font {
+    background-position: -96px -450px;
+    width: 52px;
+    height: 41px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+#menuitem-courtesy:hover .ux-nav-font {
+    background-position: -96px -498px !important;
+}
+
+/*TruCar panel, services*/
+#menuitem-TruCar:hover a { background-color: #199cb2;}
+#menuitem-TruCar .ux-nav-font {
+    background-position: -100px -550px;
+    width: 41px;
+    height: 41px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+#menuitem-TruCar:hover .ux-nav-font {
+    background-position: -100px -600px !important;
+}
+
+/*OAO panel, services*/
+#menuitem-OAO:hover a { background-color: #199cb2;}
+#menuitem-OAO .ux-nav-font {
+    background-position: -100px -645px;
+    width: 41px;
+    height: 41px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+#menuitem-OAO:hover .ux-nav-font {
+    background-position: -100px -695px !important;
+}
+
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    #menuitem-courtesy .ux-nav-font {
+		width: 41px;
+    }
+	
+	#menuitem-courtesy:hover .ux-nav-font {
+		background-position: -96px -490px !important;
+	}
+}
+
+/*Courtesy Pay accordion*/
+.ui-collapsible label{
+	margin-left: 10px;
+	position: absolute;
+    margin-top: 7px;
+}
+
+.ui-collapsible span.ui-slider-label.ui-slider-label-a.ui-btn-active.ui-btn-corner-all{
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#4aad02),to(#4aad02)) !important;
+    background-image: -webkit-linear-gradient(#4aad02,#4aad02) !important;
+    background-image: -moz-linear-gradient(#4aad02,#4aad02) !important;
+    background-image: -ms-linear-gradient(#4aad02,#4aad02) !important;
+    background-image: -o-linear-gradient(#4aad02,#4aad02) !important;
+    background-image: linear-gradient(#4aad02,#4aad02) !important;
+	background: #4aad02 !important;
+} 
+
+.ui-collapsible .ui-slider.ui-slider-switch.ui-btn-down-d.ui-btn-corner-all.ui-mini.ui-disabled span.ui-slider-label.ui-slider-label-b.ui-btn-down-d.ui-btn-corner-all {
+    background: #CECECE;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#CECECE),to(#CECECE)) !important;
+    background-image: -webkit-linear-gradient(#CECECE,#CECECE) !important;
+    background-image: -moz-linear-gradient(#CECECE,#CECECE) !important;
+    background-image: -ms-linear-gradient(#CECECE,#CECECE) !important;
+    background-image: -o-linear-gradient(#CECECE,#CECECE) !important;
+    background-image: linear-gradient(#CECECE,#CECECE) !important;
+}
+
+/*=================================================================================================*\
+	Media Queries
+\*=================================================================================================*/
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    .validation-summary-errors ul:before,
+    .ux-icon-alert,
+    .ui-datebox-container .ui-btn .ui-btn-inner .ui-icon:before,
+    .ui-datebox-container .ui-btn.ui-datebox-gridminus .ui-btn-inner .ui-icon.ui-icon-arrow-l,
+    .ui-datebox-container .ui-btn.ui-datebox-gridplus .ui-btn-inner .ui-icon.ui-icon-arrow-r,
+    .ux-status-onhold span.list-item-cell-last:after,
+    .ux-status-canceled span.list-item-cell-last:after,
+    .ux-status-pending span.list-item-cell-last:after,
+    .ux-status-inprogress span.list-item-cell-last:after,
+    .ux-status-failed span.list-item-cell-last:after,
+    .ux-status-stopped span.list-item-cell-last:after,
+    .ux-status-expired span.list-item-cell-last:after,
+    .ux-status-completed span.list-item-cell-last:after,
+    .ux-onhold:before,
+    .ux-canceled:before,
+    .ux-pending:before,
+    .ux-inprogress:before,
+    .ux-failed:before,
+    .ux-stopped:before,
+    .ux-expired:before,
+    .ux-completed:before,
+    .ux-icon.ux-icon-arrow-r:before,
+    .ui-datebox-gridheader .ui-icon.ui-icon-arrow-l,
+    .ui-datebox-gridheader .ui-icon.ui-icon-arrow-r,
+    .ux-grid-menu-container .ux-nav-font,
+    #menuitem-bills .ux-nav-font,
+    #menuitem-pending .ux-nav-font,
+    #PersonalPayments .ux-nav-font,
+    #ZellePayments .ux-nav-font,
+    #menuitem-todo .ux-nav-font,
+    #menuitem-sendmoney .ux-nav-font,
+    #menuitem-activity .ux-nav-font,
+    #menuitem-change-password .ux-nav-font,
+    #menuitem-terms .ux-nav-font,
+    #menuitem-courtesy .ux-nav-font,
+    #menuitem-locations .ux-nav-font,
+    #menuitem-call-center .ux-nav-font,
+    .ux-security-questions .ux-icon-check.ui-icon, .ux-mfa-question .ux-icon-check.ui-icon,
+    .ux-split-fields-container .ui-select .ui-btn-icon-right .ui-icon {
+        background-image: url(Media/Icons/misc_retina.min.png);
+        background-size: 200px 1500px;
+    }
+    #navigation li a.ux-nav-item span.ux-nav-font { background-image:url(Media/Icons/menu_retina.min.png);background-size:180px 480px;}
+    #menuitem-bill-matrix .ux-nav-font{background-image: url(menu-tile-billmatrix_41.png); -ms-background-size: 99px 41px; background-size: 99px 41px;}
+
+    .ui-icon-plus, 
+    .ui-icon-minus, 
+    .ui-icon-delete, 
+    .ui-icon-arrow-r, 
+    .ui-icon-arrow-l, 
+    .ui-icon-arrow-u, 
+    .ui-icon-arrow-d, .ui-icon-check, 
+    .ui-icon-gear, .ui-icon-refresh, 
+    .ui-icon-forward, .ui-icon-back, 
+    .ui-icon-grid, .ui-icon-star, 
+    .ui-icon-alert,
+    .ui-icon-info, 
+    .ui-icon-home, 
+    .ui-icon-bars, 
+    .ui-icon-edit, 
+    .ui-icon-search, 
+    .ui-icon-searchfield::after, 
+    .ui-icon-checkbox-off, 
+    .ui-icon-checkbox-on, 
+    .ui-icon-radio-off, 
+    .ui-icon-radio-on,
+    .field-validation-error:before, 
+    .ux-security-questions .ui-icon{background-image:url(icons-36-white.png);-moz-background-size: 864px 18px;-o-background-size: 864px 18px;-webkit-background-size: 864px 18px;background-size:864px 18px;}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+       only screen and (min--moz-device-pixel-ratio: 1.3),
+       only screen and (min-resolution: 200dpi) {
+   .ux-black-icons .ui-icon{background-image:url(icons-36-black.png);}
+   .field-validation-error:before{ background-position: -72px 50%;}
+
+}
+
+/* Registration */
+
+.ux-hint-image-debit {
+    background-image: url("../Content/debit-img_retina.png") !important;
+}
+
+.ux-success-tick {
+     margin: 1.5em auto;width: 100%;height: 70px; background-image: url("../Content/congratulations.png")  !important; background-repeat: no-repeat;background-position: center; 
+}
+
+.ux-card-icon, .ux-check-icon{background-image: url("../Content/enrolment.png") !important;}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-pixel-ratio : 2) {
+    .ux-card-icon, .ux-check-icon{ background-image: url("../Content/enrolment_retina.min.png") !important;background-size: 168px 100px;}
+    .ux-success-tick{background-image: url("congratulations_retina.png"); background-size: 70px 70px;}
+}

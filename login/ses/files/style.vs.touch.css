@@ -1,0 +1,456 @@
+/*
+    Main Header bar
+*/
+div.ui-header.ui-bar-c {
+	background: #FFFFFF 
+}
+
+.ux-header h1 img {
+    max-width: inherit;
+}
+
+/*
+    Buttons in the header
+*/
+#logoutButton,
+#servicesButton,
+#logOnButton{
+    background: #F5F6F7;
+    color: #003e7e;
+}
+
+.ux-radio-container .ui-btn-up-e,
+.ux-radio-container .ui-btn-hover-e,
+.ui-listview .ui-btn-down-c .ui-content,
+.ui-listview .ui-btn-down-c .ui-content .ux-tile-content, 
+a.ui-btn-down-c span.ui-btn-text, 
+a.ui-btn-up-e,
+a.ui-btn-hover-e,
+a.ui-btn-up-h,
+a.ui-btn-hover-h{
+    background: #199cb2;
+	color: #FFFFFF !important;
+}
+
+div.ux-progress-bar {
+    background: #199cb2;
+}
+
+
+div.ui-header.ui-bar-a {
+    background: #4aad02;
+    color: #FFFFFF;
+}
+
+a.ui-btn-up-c span.ui-btn-text p,
+a.ui-btn-hover-c span.ui-btn-text p,
+a.ui-btn-up-g span.ui-btn-text p,
+a.ui-btn-hover-g span.ui-btn-text p {
+	color: #003e7e;
+}
+
+.otpbutton span.ui-btn-inner {
+    padding: .6em 4px;
+}
+
+/*
+    Switch Buttons    
+*/
+div.ui-controlgroup-controls .ui-btn-up-c,
+div.ui-controlgroup-controls .ui-btn-hover-c
+{
+    background: #F5F6F7;
+	color: #202020;
+}
+
+div.ux-reg-buttons div.ui-controlgroup-controls .ui-btn-up-e,
+div.ux-reg-buttons div.ui-controlgroup-controls .ui-btn-hover-e,
+div.ux-btn-group div.ui-controlgroup-controls .ui-btn-up-e,
+div.ux-btn-group div.ui-controlgroup-controls .ui-btn-hover-e
+{
+	background: #199cb2 ;
+	color: #FFFFFF ;
+}
+
+div.ux-menu-container ul.ux-grid-c.menu.menu-main .ui-btn-down-c span.ui-btn-text p,
+div.ux-menu-container ul.ux-grid-c.menu.menu-main .ui-btn-hover-c span.ui-btn-text p,
+div.ux-menu-container ul.ux-grid-c.menu.menu-main .ui-btn-down-c,
+div.ux-menu-container ul.ux-grid-c.menu.menu-main .ui-btn-hover-c, 
+ul.ux-grid-b.menu.menu-main .ui-btn-down-g span.ui-btn-text p,
+ul.ux-grid-b.menu.menu-main .ui-btn-hover-g span.ui-btn-text p,
+ul.ux-grid-b.menu.menu-main .ui-btn-down-g,
+ul.ux-grid-b.menu.menu-main .ui-btn-hover-g,
+ul.ux-grid-c.menu.menu-main .ui-btn-down-g span.ui-btn-text p,
+ul.ux-grid-c.menu.menu-main .ui-btn-hover-g span.ui-btn-text p,
+ul.ux-grid-c.menu.menu-main .ui-btn-down-g,
+ul.ux-grid-c.menu.menu-main .ui-btn-hover-g,
+ul.ux-grid-d.menu.menu-main .ui-btn-down-g span.ui-btn-text p,
+ul.ux-grid-d.menu.menu-main .ui-btn-hover-g span.ui-btn-text p,
+ul.ux-grid-d.menu.menu-main .ui-btn-down-g,
+ul.ux-grid-d.menu.menu-main .ui-btn-hover-g{
+	background: #199cb2;
+	color: #FFFFFF ;
+}
+
+div.ux-menu-container ul.ux-grid-b.menu.menu-main .ui-btn-hover-c {
+	background: #199cb2;
+}
+
+#menuitem-todo:hover .ux-nav-font{
+    background-image: url(Media/Images/menu-tile-todos-active_41.png);
+    background-size: 41px 41px;
+    background-position: 0;
+}
+#menuitem-todo:hover a {
+    background-color: #199cb2;    
+}
+#menuitem-call-center:hover .ux-nav-font{
+    background-image: url(Media/Images/menu-tile-phone-active_41.png);
+    background-size: 41px 41px;
+    background-position: 0;
+}
+#menuitem-call-center:hover a { background-color: #199cb2;}
+#menuitem-bill-matrix .ux-nav-font
+{
+    width: 90px;
+    height: 38px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 1em auto;
+    -ms-background-size: 90px 38px;
+    background-size: 90px 38px;
+    background-position: 0;
+}
+
+#menuitem-bill-matrix:hover .ux-nav-font
+{
+    background-image: url(Media/Images/menu-tile-billmatrix-active_82.png);
+}
+
+#menuitem-bill-matrix:hover a { background-color: #199cb2;}
+#menuitem-pending:hover .ux-nav-font{ 
+    background-image: url(Media/Images/menu-tile-scheduled-active_41.png);
+    background-size: 41px 41px;
+    background-position: 0;
+}
+#menuitem-pending:hover a { background-color: #199cb2; }
+#menuitem-activity:hover .ux-nav-font, 
+#menuitem-activity:hover a { 
+    background-position: -50px -300px;
+    background-color: #199cb2;
+}
+#menuitem-sendmoney:hover .ux-nav-font, 
+#menuitem-sendmoney:hover a { 
+    background-position: -50px -600px; 
+    background-color: #199cb2;
+}
+#menuitem-change-password:hover .ux-nav-font, 
+#menuitem-change-password:hover a { 
+    background-position: -50px -700px; 
+    background-color: #199cb2;
+}
+#menuitem-terms:hover .ux-nav-font, 
+#menuitem-terms:hover a { 
+    background-position: -50px -650px;
+    background-color: #199cb2;
+}
+#menuitem-payee:hover .ux-nav-font, 
+#menuitem-payee:hover a { 
+    background-position: -50px -200px; 
+    background-color: #199cb2;
+}
+#menuitem-bills:hover .ux-nav-font, 
+#menuitem-bills:hover a{ 
+    background-position: -50px -150px; 
+    background-color: #199cb2;
+}
+#PersonalPayments:hover .ux-nav-font,
+#PersonalPayments:hover a { 
+    background-position: -100px -250px; 
+    background-color: #199cb2;
+}
+#menuitem-change-password:hover .ux-nav-font, 
+#menuitem-change-password:hover a { 
+    background-position: -50px -700px; 
+    background-color: #199cb2;
+}
+#menuitem-locations:hover .ux-nav-font, 
+#menuitem-locations:hover a { 
+    background-position: -50px -350px; 
+    background-color: #199cb2;
+}
+
+#menuitem-terms:hover .ux-nav-font {
+    background-position: -50px -650px;
+}
+
+#menuitem-call-center:hover .ux-nav-font {
+    background-image: url(Media/Images/menu-tile-phone-active_41.png);
+    background-position: 0;
+}
+
+a.ui-btn-up-g span.ui-btn-text:hover p   { color: #ffffff;}
+
+.ui-submit.ui-btn-hover-c:visited,
+.ui-submit.ui-btn-hover-c:hover,
+.ui-submit.ui-btn-hover-c a.ui-link-inherit,
+.ui-submit.ui-btn-up-c:visited,
+.ui-submit.ui-btn-up-c,
+.ui-submit.ui-btn-hover-c{
+	color: #202020;
+}
+
+.ui-btn.ui-btn-up-b,
+.ui-btn.ui-btn-up-b,
+.ui-btn.ui-btn-up-b:visited,
+.ui-btn.ui-btn-hover-b,
+.ui-btn.ui-btn-up-b a.ui-link-inherit,
+.ui-submit.ui-btn-up-b,
+.ui-submit.ui-btn-up-b:visited,
+.ui-submit.ui-btn-hover-b,
+.ui-submit.ui-btn-up-b a.ui-link-inherit {
+    background: #4AAD02;
+	color: #FFFFFF;
+}
+
+
+p.ui-li-desc,
+p.ui-aside.ux-aside,
+div.ui-aside.ux-aside p {
+    color: #202020
+}
+.list-item.ui-btn-down-c p.ui-li-desc,
+.list-item.ui-btn-down-c ,
+.list-item.ui-btn-down-g p.ui-li-desc,
+.list-item.ui-btn-down-g {
+    background: #199CB2;
+	color: #FFFFFF;
+}
+
+.list-item.ui-btn-down-c .ux-completed:before {
+    background-position: -50px -893px;
+}
+.list-item.ui-btn-down-c .ux-stopped:before, .list-item.ui-btn-down-c .ux-failed:before, .list-item.ui-btn-down-c .ux-expired:before, .list-item.ui-btn-down-c .ux-canceled:before {
+    background-position: -50px -995px;
+}
+.list-item.ui-btn-down-c .ux-onhold:before, .list-item.ui-btn-down-c .ux-pending:before, .list-item.ui-btn-down-c .ux-inprogress:before {
+    background-position: -50px -945px;
+}
+
+/*
+	Account Selection Popup
+*/
+div.ui-selectmenu.ui-popup div.ui-header.ui-bar-c {
+	color: #202020;
+}
+.ui-popup ul li.ui-btn-active .ui-btn-inner,
+.ui-popup ul li.ux-btn-active .ui-btn-inner,
+.ui-dialog ul li.ux-btn-active .ui-btn-inner,
+.ui-dialog-contain .ui-selectmenu-list li.ui-btn-active{
+    background: #199CB2;
+    color: #FFFFFF;
+}
+
+
+label.ui-input-text {
+	color: #202020;
+}
+
+.ui-input-text.ui-focus,
+.ui-input-search.ui-focus {
+    border-color: #199cb2;
+}
+
+.ux-negative {
+	color: #D95127 !important;
+}
+
+div.ui-small-label {
+    font-size: small;
+    margin-top:0.2em;
+}
+
+td.ui-right-cell {
+    width: 60%;
+    text-align: right;
+}
+
+td.ui-left-cell {
+    width: 40%;
+    text-align: left;
+}
+
+.ui-popup-container .ui-selectmenu-list .ui-btn-inner h4 {
+    white-space: initial;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+	Inline Error Message
+--------------------------------------------------------------------------------------------------*/
+.input-validation-error .ui-input-text,
+.input-validation-error .ui-input-text.ui-focus {
+	border-color: #D95127;
+}
+.field-validation-error:before {
+	background-color: #D95127;
+}
+
+.field-validation-error {
+	color: #D95127;
+}
+.validation-summary-errors {
+	background: #E5b0A0;
+   	border-color: #D95127;
+}
+
+.message-success {    
+    background: #CEEDB8;
+   	border-color: #4AAD02;
+	color: #4AAD02;
+}
+
+.message-information {
+   	border-color: #003E7E;
+	color: #003e7e;
+}
+
+ .ui-listview .ux-tile-content {
+	background: #FFFFFF;
+	color: #202020;
+}
+
+ li .ux-tile-content.clearfix {
+     background-color: transparent;
+ }
+
+ 
+/*--------------------------------------------------------------------------------------------------
+	Account Details
+--------------------------------------------------------------------------------------------------*/
+.ux-account-header {
+    color: #003E7E;
+}
+.list-item.ux-list-divider.ui-btn-up-f {
+	background: #003E7E;
+    color: #FFFFFF;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------
+	UI Style Switch
+--------------------------------------------------------------------------------------------------*/
+div.ui-controlgroup-controls .ui-btn-up-c,
+div.ui-controlgroup-controls .ui-btn-hover-c,
+div.ui-controlgroup-controls .ui-btn-down-c
+{
+	color: #003E7E;
+}
+
+
+.ux-pager-filter div.ui-controlgroup-controls .ui-disabled.ui-btn-up-c 
+{
+	color: #DAD4D4;
+}
+
+#ux-show-terms,
+#ux-email-terms
+{
+    color: #666666;
+}
+
+#ux-email-terms.ui-btn-down-c,
+#ux-email-terms.ui-btn-down-c span.ui-btn-text,
+#ux-email-terms.ui-btn-up-e
+{
+    color: #202020;
+    background: #F5F6F7;
+    border: #CCCCCC;
+}
+
+#ux-show-terms.ui-btn-down-c,
+#ux-show-terms.ui-btn-down-c span.ui-btn-text,
+#ux-show-terms.ui-btn-up-e
+{
+    color: #202020;
+    background: #F5F6F7;
+    border: #CCCCCC;
+}
+
+.ui-datebox-grid .ui-datebox-gridrow .ui-datebox-griddate.ui-datebox-griddate-empty.ui-datebox-griddate-label{
+    background: #FFFFFF;
+    color: #199CB2;
+}
+.ui-datebox-grid .ui-datebox-gridrow .ui-datebox-griddate.ui-datebox-griddate-empty {
+    background: #003E7E;
+    color: #EEEEEE;
+}
+.ui-datebox-grid .ui-datebox-gridrow .ui-datebox-griddate.ui-corner-all.ui-btn-up-c {
+     color: #202020
+}
+.ui-datebox-grid .ui-datebox-gridrow .ui-datebox-griddate.ui-corner-all.ui-btn-up-e {
+    background: #4AAD02 ;
+    color: #FFFFFF;
+}
+.ui-datebox-container .ui-title {
+     color: #202020
+}
+
+li.list-item {
+    color: #202020;
+}
+
+.ux-dob-dropdown-container .ux-date-of-birth-first .ui-btn,
+.ux-dob-dropdown-container .ux-date-of-birth-second .ui-btn,
+.ux-dob-dropdown-container .ux-date-of-birth-third .ui-btn{
+    background: #F5F6F7 !important;
+    color: #202020
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+	Location  search screen
+--------------------------------------------------------------------------------------------------*/
+#all-btn.ui-btn-up-c,
+#all-btn.ui-btn-hover-c, 
+#atm-btn.ui-btn-up-c,
+#atm-btn.ui-btn-hover-c, 
+#branch-btn.ui-btn-up-c,
+#branch-btn.ui-btn-hover-c {
+    background: #F5F6F7
+}
+
+/*--------------------------------------------------------------------------------------------------
+	Other Text
+--------------------------------------------------------------------------------------------------*/
+.ui-body-c, .ui-overlay-c , h4 { color: #202020 !important}
+
+.ux-btn-active h4 { color: #ffffff !important}
+
+/*--------------------------------------------------------------------------------------------------
+	PassCode Page Style 
+--------------------------------------------------------------------------------------------------*/
+.phonePadding{padding: 18px}
+
+
+/* Inline status image */
+.persona-payment-details li[class*='ux-status-'] .list-item-cell-last span.list-item-inner {
+    display: inline;
+}
+
+/* Fix image margin and width */
+li[class*='ux-status-'] span.list-item-cell-last:after
+{
+    margin-left: 0.5em; 
+    width: 12px;
+}
+
+.list-no-wrap-ellipsis {overflow:hidden;white-space: nowrap; text-overflow: ellipsis;}
+
+.reset-password-error {font-size: 1em}
+
+.ux-mfa-question .ui-field-contain div.ui-input-text
+{
+    background-color: #FFFFFF;
+}

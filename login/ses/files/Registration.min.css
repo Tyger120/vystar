@@ -1,0 +1,922 @@
+.ui-body-z {
+	border: 1px solid #e0e0e0;
+    border: 0;
+    width: 100%;
+    padding: 0.4em;
+    display: block;
+    background: transparent none;
+    outline: 0!important;
+
+}
+
+.ui-input-text.ui-focus {
+	z-index: 10;
+}
+
+.ux-header-bar-bg {
+	width: 100%;
+	padding: 0 1em;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.ui-body-c .ux-header-bar-bg {
+	text-shadow: none;
+}
+
+.ux-header-bar-bg p {
+	margin: .5em 0;
+}
+
+.ux-credentials .ux-registration-banner {
+	margin-bottom: 1.0em;
+}
+
+.ux-enrol-container,.ux-enrol-container .ui-listview {
+	margin: 1em 0;
+}
+
+.ux-credentials .ui-li-desc {
+	text-overflow: clip;
+}
+
+.ux-credentials .ui-li .ui-btn-text a.ui-link-inherit {
+	text-overflow: clip;
+	overflow: visible;
+	white-space: normal;
+}
+
+.ux-credentials .ui-content {
+	font-weight: normal;
+	padding: 0;
+	border: 0;
+}
+
+.ux-center-text {
+	text-align: center;
+}
+
+.ux-credentials-description {
+	background-image: none;
+}
+
+.ux-padding-top.ui-content {
+	padding-top: 1em!important;
+}
+
+.ux-terms-full {
+	height: auto;
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+.ux-dark-overlay {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .2;
+	filter: alpha(opacity=20);
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	display: none;
+	cursor: pointer;
+}
+
+.ux-terms-email-container {
+	background: #fff;
+	position: relative;
+	z-index: 10;
+}
+
+.ux-registration-banner.ui-btn-active .ux-credentials-description {
+	background: 0;
+}
+
+.ux-reg-widget {
+	display: inline-block;
+	padding: 1em 0;
+	margin: -1.5em 0 -0.75em;
+}
+
+.ux-reg-buttons .ui-btn-text {
+	font-size: .9em;
+}
+
+.ux-reg-buttons #notSelectedOption .ui-btn-inner {
+	padding: .5em 12px;
+}
+
+.ux-reg-buttons #selectedOption .ui-btn-inner {
+	padding: .5em 10px .5em 22px;
+}
+
+.ux-reg-buttons #selectedOption.ui-mini.ui-btn-icon-left .ui-icon {
+	margin-top: -9px;
+}
+
+.ux-reg-widget .ui-controlgroup {
+	margin: 0 .2em;
+}
+
+.ux-reg-buttons.ux-btn-outer {
+	margin: 0 .5em;
+}
+
+.ux-reg-buttons .ui-btn-text,.ux-widget-tag label {
+	vertical-align: top;
+}
+
+.ux-reg-buttons .ui-icon,.ux-reg-buttons .ui-icon-shadow {
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.ux-widget-tag {
+	padding: .45em 0;
+}
+
+.ux-widget-tag small label {
+	font-size: .9em;
+}
+
+.ux-mfa-question-container.ui-listview,.ux-security-questions.ui-listview {
+	margin: 0 -1em;
+	margin-top: -1px;
+}
+
+ul.ux-security-questions li.ui-li.ui-btn {
+	margin-top: -1px;
+}
+
+.ux-mfa-question-container .ui-li .ui-btn-inner a.ui-link-inherit {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.ux-select-question,.ux-mfa-question-title {
+	margin-left: 25px;
+}
+
+.ux-security-questions .ux-icon-check {
+	float: left;
+}
+
+.ux-tile-icon {
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	float: left;
+	width: 84px;
+	height: 46px;
+	background-repeat: no-repeat;
+}
+
+.ux-tile-content {
+	margin-left: 110px;
+}
+
+.ui-listview>.ui-li.ui-first-child,.ui-listview>.ui-li.ui-last-child {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+
+.ui-btn-up-d.ux-registration-banner {
+	border-top: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+}
+
+.ux-card-icon,.ux-check-icon {
+	background-image: url(Media/Icons/enrolment.png);
+}
+
+div.ui-input-text.ui-corner-all,div.ui-select .ui-btn.ui-btn-corner-all {
+	background-color: #fff;
+}
+
+.field-validation-error ~ .ux-split-field .ui-select .ui-btn,.field-validation-error ~ div .ux-split-field .ui-input-text,.ux-security-question-field .field-validation-error ~ .ui-input-text {
+	border-color: #ff931e;
+	border-width: 1px;
+}
+
+.ux-fields-and-error-container.ui-input-text {
+	padding: 0;
+}
+
+.field-validation-error,.ui-grid-a .field-validation-error {
+	font-weight: bold;
+	width: 100%;
+}
+
+.ui-field-contain .ux-input-container div.ui-input-text,.ux-input-container div.ui-input-text {
+	width: 100%;
+}
+
+.ux-subheading {
+	padding: .5em 1em;
+	font-size: .9em;
+	border-bottom: 1px solid #aaa;
+}
+
+@media only screen and (min-device-width :768px) and (max-device-width :1024px) {
+	.ipad-input {
+		margin-left: 10%;
+	}
+}
+
+.ux-grad-mask {
+	z-index: 2;
+	position: relative;
+	height: 50px;
+	margin-top: -50px;
+	overflow: hidden;
+	background: -moz-linear-gradient(top,rgba(230,230,230,0) 0,rgba(230,230,230,0) 1%,rgba(230,230,230,0.9) 70%,rgba(230,230,230,1) 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(230,230,230,0)),color-stop(1%,rgba(230,230,230,0)),color-stop(70%,rgba(230,230,230,0.9)),color-stop(100%,rgba(230,230,230,1)));
+	background: -webkit-linear-gradient(top,rgba(230,230,230,0) 0,rgba(230,230,230,0) 1%,rgba(230,230,230,0.9) 70%,rgba(230,230,230,1) 100%);
+	background: -o-linear-gradient(top,rgba(230,230,230,0) 0,rgba(230,230,230,0) 1%,rgba(230,230,230,0.9) 70%,rgba(230,230,230,1) 100%);
+	background: -ms-linear-gradient(top,rgba(230,230,230,0) 0,rgba(230,230,230,0) 1%,rgba(230,230,230,0.9) 70%,rgba(230,230,230,1) 100%);
+	background: linear-gradient(to bottom,rgba(230,230,230,0) 0,rgba(230,230,230,0) 1%,rgba(230,230,230,0.9) 70%,rgba(230,230,230,1) 100%);
+}
+
+.ux-terms-tiles.ui-content {
+	padding: .5em .2em;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 1em -1em;
+}
+
+.ux-terms-tiles .ui-block-a {
+	padding-right: .2em;
+}
+
+.ux-terms-tiles .ui-block-b {
+	padding-left: .2em;
+}
+
+.ux-terms-email-container.ui-collapsible-inset {
+	margin: 0;
+}
+
+.ux-terms-email-container .ui-icon {
+	display: none;
+}
+
+.ux-terms-email-container .ui-btn-text {
+	text-align: center;
+	display: block;
+}
+
+.ux-terms-email-container .ui-collapsible-heading .ui-btn-icon-right .ui-btn-inner {
+	padding-right: 1em;
+}
+
+.ui-popup-container {
+	width: 90%;
+	left: 5%!important;
+}
+
+.ux-temrs-popup {
+	padding: .5em 1em;
+}
+
+.ux-terms-email-count {
+	font-size: 1em;
+	display: inline-block;
+	float: none;
+	margin-right: 1em;
+}
+
+.ux-terms-email-count.ux-terms-email-count-large {
+	margin-right: 0;
+}
+
+#ux-email-terms .ui-btn-inner {
+	text-overflow: clip;
+}
+
+.ux-email-terms-btn .ui-btn-inner .ui-btn-text {
+	display: inline-block;
+	width: auto;
+	margin-left: .2em;
+	max-width: 100%;
+}
+
+.ux-terms-email-count-large {
+	font-size: 2em;
+	position: relative;
+}
+
+#emailLimitReachedMessage {
+	margin: .5em;
+}
+
+.ui-popup-container {
+	overflow: hidden;
+}
+
+@media all and (orientation:landscape) {
+	.ux-temrs-popup .ui-input-text {
+		overflow: hidden;
+	}
+}
+
+.ui-popup-container.ux-terms-popup {
+	top: auto!important;
+	bottom: 14em;
+}
+
+.ux-temrs-popup .field-validation-error {
+	margin: .4em 0;
+}
+
+.ui-grid-a .ux-terms-btn-full {
+	width: 100%;
+}
+
+.ux-terms-btn-full.ui-block-b {
+	padding-left: 0;
+}
+
+#emailMessageDiv {
+	word-wrap: break-word;
+}
+
+.ux-hint-image-check-routing,.ux-hint-image-check-account,.ux-hint-image-debit {
+	width: 95%;
+	margin: 0 0 1em 0;
+	background-repeat: no-repeat;
+	padding-bottom: 27%;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+}
+
+.ux-account-grid .ux-account-block,.ux-input-container {
+	padding: .4em 0;
+}
+
+.ui-field-contain.ux-account-fieldcontain-image {
+	margin: 0 0 1em 0;
+}
+
+.ux-hint-image-check-routing {
+	background-image: url("Media/Images/Registration/check-img-routing_retina.png");
+}
+
+.ux-hint-image-check-account {
+	background-image: url("Media/Images/Registration/check-img-account_retina.png");
+}
+
+.ux-hint-image-debit {
+	background-image: url("Media/Images/Registration/debit-img_retina.png");
+}
+
+.ux-split-fields-container {
+	overflow: hidden;
+}
+
+.ux-split-fields-container div.ui-input-text,.ux-split-fields-container .ux-ssn-registration-field-requirements {
+	width: 100%;
+}
+
+.ux-username-field div.ui-input-text.ui-shadow-inset,.ux-password-field div.ui-input-text.ui-shadow-inset,.ux-split-fields-container .ui-block-a div.ui-input-text.ui-shadow-inset {
+	z-index: 2;
+}
+
+.ux-ssn-input-field-first.ux-phone-input-field-second {
+	margin-right: 5%;
+}
+
+.ux-dob-dropdown-container {
+	background: transparent;
+	border: 0;
+}
+
+.ux-requirements-container,.ux-requirements-container-inner,.ux-ssn-requirements-container,.input-validation-error .ui-input-text.ux-requirements-container {
+	border-radius: 0 0 .5em .5em;
+	-webkit-border-radius: 0 0 .5em .5em;
+	-moz-border-radius: 0 0 .5em .5em;
+	border-style: solid;
+	border-color: rgba(255,255,255,0.4);
+	border-width: 0 1px 1px 1px;
+}
+
+.ux-ssn-requirements-container,.ux-ssn-requirements-container .ux-requirements-container-inner {
+	border-radius: .5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-width: 1px;
+}
+
+.ux-ssn-requirements-container.ui-input-text {
+	padding: 0;
+}
+
+.ux-requirements-container-inner {
+	border-color: #ccc;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.ux-requirements-container.ui-input-text {
+	padding: 0;
+}
+
+.ux-requirements-container-inner {
+	padding: 1.3em 1em .5em;
+	overflow: hidden;
+}
+
+.ux-ssn-requirements-container .ux-requirements-container-inner {
+	padding-top: 1em;
+}
+
+.ux-progress-bar-container,.ux-progress-bar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.ux-progress-bar-container {
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+.ux-progress-bar-bg,.ux-progress-bar {
+	border-left-width: 0;
+	border-right-width: 0;
+	padding: .2em 0;
+}
+
+.ux-field-with-requirements {
+	line-height: 0;
+}
+
+.ux-registration-field-requirements,.ux-field-with-requirements .field-validation-error {
+	line-height: normal;
+}
+
+.ux-registration-field-requirements {
+	margin: 0 0 1em 0;
+}
+
+.ux-registration-field-requirements.ux-ssn-registration-field-requirements {
+	margin: 0;
+}
+
+.ui-field-contain .ux-requirements-container.ui-input-text {
+	margin-top: -20px;
+}
+
+.ux-split-fields-container .ui-select .ui-btn-icon-right .ui-icon {
+	background-position: left -1250px;
+}
+
+.ux-phone-input-field-first {
+	width: 31.5%;
+}
+
+.ux-phone-input-field-second {
+	width: 58.5%;
+}
+
+.ux-phone-dash {
+	font-size: 1.5em;
+	width: 5%;
+	margin: 0 2.5%;
+	overflow: hidden;
+	text-align: center;
+	padding: .12em 0;
+}
+
+.ux-ssn-input-field-first {
+	width: 27.5%;
+}
+
+.ux-ssn-input-field-second {
+	width: 25%;
+}
+
+.ux-ssn-input-field-third {
+	width: 37.5%;
+}
+
+.ux-ssn-input-field-first,.ux-ssn-input-field-second {
+	margin-right: 5%;
+}
+
+.ux-date-of-birth-first {
+	margin-right: 5%;
+	width: 40%;
+}
+
+.ux-date-of-birth-second {
+	margin-right: 5%;
+	width: 20%;
+}
+
+.ux-date-of-birth-third {
+	width: 30%;
+}
+
+.ux-split-fields-container .ui-btn-inner {
+	padding: .6em .05em;
+}
+
+.ux-split-fields-container .ui-select .ui-btn-icon-right .ui-icon {
+	right: .2em;
+	background-color: transparent;
+}
+
+.ux-split-fields-container .ui-select .ui-btn-icon-right .ui-btn-inner {
+	padding: .6em 1.4em .6em .4em;
+	text-align: left;
+}
+
+.ux-dob-dropdown-container .ui-btn-inner {
+	font-weight: normal;
+}
+
+.ux-dob-dropdown-container .ux-split-field .ui-btn {
+	border-width: 0;
+}
+
+.ux-dob-dropdown-container .ux-split-field .ui-icon-shadow {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.ux-security-questions .ui-icon,.ux-mfa-question .ux-icon-check.ui-icon {
+	opacity: .4;
+	filter: alpha(opacity=40);
+	background-color: transparent;
+}
+
+.ux-security-questions li span.ui-icon.ui-icon-shadow {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.ux-security-questions .ux-icon-check.ui-icon,.ux-mfa-question .ux-icon-check.ui-icon {
+	background-position: left -1100px;
+	right: auto;
+	opacity: 1.0;
+	filter: alpha(opacity=40);
+	float: left;
+	margin-right: 5px;
+	position: absolute;
+	top: 50%;
+	margin-top: -9px;
+}
+
+.ux-mfa-question .ui-collapsible-heading-collapsed .ux-icon-check.ui-icon.ux-question-incomplete {
+	background: 0;
+}
+
+.ux-mfa-question .ui-btn-text {
+	display: block;
+}
+
+.ux-security-questions .ux-icon-check.ui-icon.ux-question-complete,.ux-mfa-question .ux-icon-check.ui-icon.ux-question-complete {
+	background-position: left -1150px;
+}
+
+.ux-mfa-question span.ui-icon {
+	border-radius: 5px;
+}
+
+.ux-mfa-question-content {
+	display: inline-block;
+}
+
+.ui-input-text.ux-security-question-alert,.ui-input-text.ux-success-page-popup {
+	padding: 1.25em .75em;
+	background-color: white;
+	border: 0;
+	color: black;
+}
+
+.ux-security-question-alert-arrow {
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid white;
+}
+
+.ux-security-question-alert-arrow:after,.ux-success-page-arrow:after {
+	content: " ";
+}
+
+.ux-security-question-alert-arrow,.ux-success-page-arrow {
+	position: absolute;
+	right: 25%;
+	margin-right: -6px;
+}
+
+.ui-input-text.ux-security-question-alert.ui-shadow,.ui-input-text.ux-success-page-popup.ui-shadow {
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.ux-security-question-alert-container {
+	padding: 0 .4em;
+}
+
+.ux-toggle-security-question-alert-container {
+	display: none;
+}
+
+.ux-security-questions.ui-listview .list-item {
+	border-width: 1px;
+}
+
+#ux-mfa-btn-container {
+	margin-top: 1em;
+}
+
+.ux-security-question-alert-container.ui-field-contain div.ui-input-text {
+	width: 100%;
+}
+
+.ux-mfa-question-title {
+	display: inline-block;
+	width: 93%;
+}
+
+.ui-li .ui-btn-text a.ux-selected-security-question.ui-link-inherit {
+	white-space: normal;
+}
+
+.ux-mfa-question .ux-icon-check.ui-icon.ux-select-security-question {
+	background-image: none;
+}
+
+.ux-security-question-field.ui-content {
+	padding: .2em 0;
+	margin: 0;
+}
+
+.ux-mfa-question .ui-field-contain div.ui-input-text {
+	margin: .5em 0;
+}
+
+.ux-mfa-question .ui-field-contain.ux-security-question-alert-container div.ui-input-text {
+	margin: 0;
+}
+
+.ux-security-questions li {
+	border-right: 0;
+	border-left: none;
+}
+
+.ux-mfa-question p {
+	margin-bottom: .2em;
+}
+
+.ux-mfa-question .ui-collapsible-content {
+	padding: 0 15px;
+}
+
+.ux-mfa-question .ux-btn-outer {
+	margin-bottom: .5em;
+}
+
+.ux-mfa-question-container .ux-mfa-question.ui-last-child .ui-collapsible-content {
+	border-bottom: 1px solid #aaa;
+}
+
+.ux-otp-radio-hide {
+	display: none;
+}
+
+.ux-otp-phonenumber-button {
+	-moz-appearance: button;
+	-o-appearance: button;
+	-ms-appearance: button;
+	appearance: button;
+	width: 70%;
+	height: 100%;
+	border-radius: 8px!important;
+	-webkit-border-radius: 8px!important;
+}
+
+.ux-otp-phonenumber-button input[type="radio"]:checked+label,.Checked+label {
+	background: #4aad02;
+}
+
+.ux-otp-deliverymethod-button {
+	-moz-appearance: button;
+	-o-appearance: button;
+	-ms-appearance: button;
+	appearance: button;
+	float: left;
+	width: auto;
+	margin-left: .1em;
+	display: inline-block;
+}
+
+.ux-otp-deliverymethod-button input[type="radio"]:checked+label,.Checked+label {
+	background: #4aad02;
+}
+
+.ux-otp-deliverymethod-label {
+	margin-left: .2em;
+}
+
+.ux-ncp-enrolment-content {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.ux-success-tick {
+	margin: 1.5em auto;
+	width: 100%;
+	height: 70px;
+	background-image: url("Media/Images/Registration/congratulations.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ux-success-page p {
+	text-align: center;
+}
+
+.ux-success-page-arrow {
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	right: 50%;
+	top: -6px;
+	z-index: 2;
+}
+
+.ui-field-contain div.ui-input-text.ux-success-page-popup {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.success-page-bubble-content {
+	margin: 0 0 1em 0;
+	color: #666;
+}
+
+.ux-success-page-popup .ux-btn-outer {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.successTitle {
+	font-size: 1.2em;
+	margin-top: 1.5em;
+}
+
+.ux-mfa-question-container.ui-collapsible-set {
+	margin: 0;
+}
+
+.ux-mfa-question .ui-collapsible-heading {
+	margin: 0 -1em;
+}
+
+.ux-dob-dropdown-container .ui-btn.ui-focus {
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.ux-credentials .ui-li .ui-btn-inner a.ui-link-inherit,.ui-li-static.ui-li {
+	padding: .7em;
+}
+
+.ui-popup-hidden:not(#ofac-country-popup) {
+	top: auto;
+	display: block;
+}
+
+.ux-check-icon {
+	background-position: left -50px;
+}
+
+.ux-card-icon {
+	background-position: left 0;
+}
+
+.ux-credentials li.ui-btn-down-c .ux-check-icon {
+	background-position: right -50px;
+}
+
+.ux-credentials li.ui-btn-active .ux-check-icon {
+	background-position: right -50px;
+}
+
+.ux-credentials li.ui-btn-down-c .ux-card-icon {
+	background-position: right 0;
+}
+
+.ux-tile-content h3 {
+	white-space: normal;
+}
+
+@media all and (min-width:28em) {
+	.ux-password-field .clearfix {
+		display: block;
+	}
+
+	.ux-password-strength-container {
+		margin: 0 0 .5em 0;
+	}
+
+	.ui-field-contain .ux-split-fields-container .ui-select,.ux-success-page .ui-field-contain .ui-btn.ui-submit {
+		width: 100%;
+	}
+
+	.ux-mfa-question .field-validation-error {
+		margin-left: 0;
+	}
+}
+
+@media all and (max-width:28em) {
+	.ui-field-contain label.ui-input-text.ux-label-requirements,.ui-field-contain label.ui-input-text.ux-label-account-image {
+		display: none;
+	}
+
+	.ux-mfa-question-title {
+		width: 85%;
+	}
+
+	.ui-field-contain.ux-security-question-alert-container {
+		padding: 0 .4em;
+	}
+
+	.ui-field-contain .ux-input-container div.ui-input-text,.ui-field-contain .ux-split-fields-container div.ui-input-text,.ui-field-contain div.ui-input-text.ux-success-page-popup,.ux-security-question-alert-container div.ui-input-text {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+	}
+
+	.ui-grid-a.ux-split-fields-container .ui-block-ab {
+		width: 80%;
+	}
+
+	.ux-email-terms-btn .ui-btn-inner {
+		padding: .6em 20px;
+	}
+
+	.ux-date-of-birth-first {
+		margin-right: 2%;
+		width: 40%;
+	}
+
+	.ux-date-of-birth-second {
+		margin-right: 2%;
+		width: 26%;
+	}
+
+	.ux-debit-split-field-container .ux-split-field div.ui-input-text {
+		width: 70%;
+	}
+}
+
+@media all and (max-width:35em) {
+	.ux-label-requirements {
+		display: none;
+	}
+
+	.ui-field-contain,fieldset.ui-field-contain {
+		padding: 0;
+	}
+
+	.ui-field-contain.ux-security-question-alert-container {
+		padding: 0 .4em;
+	}
+
+	div.ui-input-text.ux-split-fields-container {
+		padding: 0;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio :2),only screen and (min-device-pixel-ratio :2) {
+	.ux-card-icon,.ux-check-icon {
+		background-image: url("Media/Icons/enrolment_retina.min.png");
+		background-size: 168px 100px;
+	}
+
+	.ux-success-tick {
+		background-image: url("Media/Images/Registration/congratulations_retina.png");
+		background-size: 70px 70px;
+	}
+}
